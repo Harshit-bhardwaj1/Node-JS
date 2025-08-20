@@ -76,6 +76,16 @@ app.get('/blogs', (req,res)=>{
 })
 
 
+// particular blog
+
+// app.get('/blogs/:idd', (req,res)=>{
+//     let {idd} = req.params;
+//     // let foundBlog = blogs.find((blog)=> blog.id === parseInt(idd));
+//     let foundBlog = blogs.find((blog) => blog.id == idd);
+//     res.render('blogs/show', {foundBlog});
+// })
+
+
 // UPADATE
 
 
